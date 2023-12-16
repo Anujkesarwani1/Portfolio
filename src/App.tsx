@@ -6,6 +6,7 @@ import Education from "./components/Education";
 import Skills from "./components/Skills";
 import { BrowserRouter } from "react-router-dom";
 import About from "./components/About";
+import Experience from "./components/Experience";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -38,6 +39,7 @@ const App = () => {
           <About />
           <Wrapper>
             <Skills />
+            <Experience />
             <Education />
           </Wrapper>
         </Body>
