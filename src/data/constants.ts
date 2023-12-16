@@ -515,3 +515,7 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
+
+export enum PROJECTS {
+  DESCRIPTION = "I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.",
+}
